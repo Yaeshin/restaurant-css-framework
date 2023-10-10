@@ -32,9 +32,9 @@ This project is built in HTML/CSS with a bit of JS. It was made with the help of
 
 ## Credits
 
-Images de <a href="https://fr.freepik.com">Freepik</a>
+Images from <a href="https://fr.freepik.com">Freepik</a>
 
-Images de <a href="https://pixabay.com/fr/photos/">Pixabay</a>
+Images from <a href="https://pixabay.com/fr/photos/">Pixabay</a>
 
 ## Author
 
