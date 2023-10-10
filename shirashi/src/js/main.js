@@ -1,10 +1,6 @@
 // Import our custom CSS
 import '../styles/styles.css'
 
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
-
-
 /* Javascript to show and hide cookie banner using localstorage */
 /* Shows the Cookie banner */
 function showCookieBanner(){
