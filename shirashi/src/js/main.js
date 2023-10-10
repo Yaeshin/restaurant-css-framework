@@ -1,6 +1,3 @@
-// Import our custom CSS
-import '../styles/styles.scss'
-
 /* Javascript to show and hide cookie banner using localstorage */
 /* Shows the Cookie banner */
 function showCookieBanner(){
