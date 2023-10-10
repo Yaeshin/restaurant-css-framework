@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" src="../src/scss/styles.scss">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Shirashi Menu</title>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navigate</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                  <a class="nav-link" href="restaurants.html">Restaurants</a>
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- Menu Start -->
+        <div class="container-xxl py-5" id="menu">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title">Shirashi Menu</h5>
+                    <h1 class="mb-5">Best dishes</h1>
+                    <h5 class="mb-5"><i>This list is non-exhaustive, our menu include more than those depending on which restaurant it is.</i></h6>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Lunch</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/tamagoyaki.jpg" alt="tamagoyaki" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tamagoyaki</span>
+                                                <span class="text-primary">5€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tamagoyaki is a Japanese omelet dish made by using a unique cooking method - 
+                                                the eggs are folded into themselves until they are fully cooked.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/himono.jpg" alt="himono" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Himono</span>
+                                                <span class="text-primary">10€</span>
+                                            </h5>
+                                            <small class="fst-italic">The Japanese term himono encompasses various types of dried fish products. 
+                                                It is usually prepared with smaller fish varieties such as mackerel or sardines.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/jianbing.jpg" alt="jianbing" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Jianbing</span>
+                                                <span class="text-primary">8€</span>
+                                            </h5>
+                                            <small class="fst-italic">A favorite breakfast item in China sold by numerous street food vendors early in the morning.
+                                                 Jianbing or fried pancake is a thin and savory crêpe-like pancake that is made by spreading batter over a hot, cast-iron slab with a wooden paddle.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/youtiao.jpg" alt="youtiao" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Youtiao</span>
+                                                <span class="text-primary">6€</span>
+                                            </h5>
+                                            <small class="fst-italic">Youtiao is one of the most popular breakfast foods in China, 
+                                                consisting of Chinese breadsticks that are fried in pairs and connected in the middle. 
+                                                The result is a puffy snack that is crispy on the exterior and tender on the interior.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/miso soup.jpg" alt="miso soup" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Miso soup</span>
+                                                <span class="text-primary">4€</span>
+                                            </h5>
+                                            <small class="fst-italic">Miso soup is a traditional Japanese soy-based soup made from a stock called dashi, 
+                                                miso paste, and various additional ingredients such as seaweed or tofu.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/kimchi grilled cheese.jpg" alt="kimchi grilled cheese" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kimchi grilled cheese</span>
+                                                <span class="text-primary">10€</span>
+                                            </h5>
+                                            <small class="fst-italic">Kimchi is a staple of Korean cuisine. 
+                                            Here, kimchi and mozzarella cheese come together for a twist on the classic grilled cheese. </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/bun bo hue.jpg" alt="bun bo hue" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bun bo hue</span>
+                                                <span class="text-primary">12€</span>
+                                            </h5>
+                                            <small class="fst-italic">Bun bo hue is the lesser known brother of the pho. 
+                                                This noodle soup, originally from the city of Hue, contains rice vermicelli (bun), oxtail (bo), 
+                                                a fragrant, tasteful broth and sometimes chunks of coagulated pig's blood.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/breakfast/Khanom Pang Na Moo.jpg" alt="Khanom Pang Na Moo" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Khanom Pang Na Moo</span>
+                                                <span class="text-primary">10€</span>
+                                            </h5>
+                                            <small class="fst-italic">Khanom pang na moo or thai pork toast is one of the most addictive and filling Thai snacks.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/pho.jpg" alt="pho" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pho</span>
+                                                <span class="text-primary">16€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pho is a vietnamese dish that consists of a flavorful broth infused 
+                                                with fragrant herbs and spices, thin rice noodles, and tender slices of beef or 
+                                                chicken with fresh herbs, bean sprouts, and lime as garnish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/bento box.jpg" alt="bento box" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bento box</span>
+                                                <span class="text-primary">18€</span>
+                                            </h5>
+                                            <small class="fst-italic">The bento box is the traditional lunch for every japanase, 
+                                                ours is served with tamagoyaki, rice, pork and seaweed salad. The best choice for those
+                                                who want to experience the true culture of Japan.   
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/pad thai.jpg" alt="pad thai" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pad Thai</span>
+                                                <span class="text-primary">16€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pad Thai is an exemplary dish from Thailand, representing the epitome of spicy Asian food. 
+                                                This stir-fried noodle dish features a delectable combination of rice noodles, shrimp or chicken, 
+                                                bean sprouts, and tofu.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/Hainanese-Chicken-Rice.jpg" alt="Hainanese chicken rice" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hainanese chicken rice</span>
+                                                <span class="text-primary">14€</span>
+                                            </h5>
+                                            <small class="fst-italic">Hainanese chicken rice is a classic among Asian food dishes. 
+                                                It features succulent poached chicken served with fragrant rice cooked in chicken broth and infused with ginger.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/banhmi.jpg" alt="banh mi" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Banh mi</span>
+                                                <span class="text-primary">12€</span>
+                                            </h5>
+                                            <small class="fst-italic">Banh mi, a type of Vietnamese sandwich, is a delicious example of affordable 
+                                                Asian food that packs a punch of flavors. It typically consists of a crispy baguette filled with a 
+                                                combination of ingredients like marinated meats, pickled vegetables, 
+                                                fresh herbs, and a variety of sauces like mayonnaise or soy sauce.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/VietnameseSpringRolls.jpg" alt="vietnamese spring rolls" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vietnamese spring rolls</span>
+                                                <span class="text-primary">12€</span>
+                                            </h5>
+                                            <small class="fst-italic">Vietnamese spring rolls are a delightful combination of fresh ingredients and vibrant flavors. 
+                                                These translucent rice paper rolls are typically filled with a variety of ingredients 
+                                                like shrimp, pork, herbs, and vermicelli noodles.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/bibimbap.jpg" alt="Bibimbap" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bibimbap</span>
+                                                <span class="text-primary">15€</span>
+                                            </h5>
+                                            <small class="fst-italic">Bibimbap consists of warm rice topped with mixed vegetables, 
+                                                beef or chicken, and raw egg, as well as soy sauce and a dollop of chilli pepper paste for seasoning.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/lunch/baozi.jpg" alt="baozi" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Baozi</span>
+                                                <span class="text-primary">12€</span>
+                                            </h5>
+                                            <small class="fst-italic">Baozi is a traditional chinese dish, filled with minced meats and vegetables, 
+                                                cooked in a hot steamer</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/shoyu ramen.jpg" alt="shoyu ramen" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Shoyu Ramen</span>
+                                                <span class="text-primary">18€</span>
+                                            </h5>
+                                            <small class="fst-italic">Shoyu ramen is a dish with a broth made of soy sauce. 
+                                                Shoyu means soy sauce in Japanese. It has high umami flavors along with a tangy strong taste too.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/mapo tofu.jpg" alt="mapo tofu" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mapo tofu</span>
+                                                <span class="text-primary">17€</span>
+                                            </h5>
+                                            <small class="fst-italic">This Sichuan specialty is an easy-make dish which is commonly described by
+                                                 Chinese cooks as: numbing, spicy hot, hot temperature, fresh, aromatic, flaky, tender and soft. 
+                                                 Served with white rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/kalbi.jpg" alt="kalbi" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kalbi</span>
+                                                <span class="text-primary">22€</span>
+                                            </h5>
+                                            <small class="fst-italic">Kalbi is a short ribs dish with grilled beef popular in South Korea. 
+                                                The ribs are marinated in a sweet sauce consisting of soy sauce, sugar, rice wine, sesame oil, and garlic.
+                                            Served with white rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/yakisoba.jpg" alt="yakisoba" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Yakisoba</span>
+                                                <span class="text-primary">18€</span>
+                                            </h5>
+                                            <small class="fst-italic">Yakisoba is a stir-fry japanase dish prepared with noodles, 
+                                                thinly sliced pork, carrots, cabbage, bean sprouts, onion, and mushrooms, 
+                                                and a special yakisoba sauce.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/tonkatsu.jpg" alt="tonkatsu" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tonkatsu</span>
+                                                <span class="text-primary">24€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tonkatsu is a japanese dish that consists of a breaded, deep-fried pork cutlet. 
+                                                It involves coating slices of pork with panko (bread crumbs), and then frying them in oil. Served with rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/khao pad.jpg" alt="khao pad" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Khao pad</span>
+                                                <span class="text-primary">16€</span>
+                                            </h5>
+                                            <small class="fst-italic">Thai style fried rice, consists of various vegetables and peeled and deveined shrimps.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/tod mun pla.jpg" alt="tod mun pla" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tod mun pla</span>
+                                                <span class="text-primary">20€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tod mun pla or Thai fish cakes are deep-fried fish patties prepared with 
+                                                white soft fish flavored with aromatic Thai ingredients such as lemon grass, lime leaves, and fish sauce.
+                                            Served with white rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="assets/imgs/menu/dinner/bo luc lac.jpg" alt="bo luc lac" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bo luc lac</span>
+                                                <span class="text-primary">20€</span>
+                                            </h5>
+                                            <small class="fst-italic">Bo luc lac is a Vietnamese dish that consists of beef sauteed with 
+                                                cucumber, lettuce, tomatoes, red onion, pepper, and soy sauce. 
+                                                The beef is cut into small cubes the size of playing dice before being sauteed. Served with rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+    </div>
+    <!-- Cookie Banner -->
+<div id="cb-cookie-banner" class="alert alert-dark text-center mb-0" role="alert">
+    🍪 This website uses cookies to ensure you get the best experience while navigating through it.
+    <a id="cookies" href="https://www.cookiesandyou.com/" target="blank">Learn more</a>
+    <button type="button" class="btn btn-primary btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
+    I Got It
+    </button>
+    </div>
+    <!-- End of Cookie Banner -->
+    <footer class="bg-dark text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright: Shirashi Restaurants
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
